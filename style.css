@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap');
+
+body{
+
+padding-top: 20px;
+
+font-family: 'Cairo', sans-serif;
+
+}
+
+#login{
+
+color: #fff;
+
+background: #e67e22;
+
+margin-top: 10px;
+
+padding: 8px 14px;
+
+border: none;
+
+border-radius:3px;
+
+font-size: 18px;
+
+font-weight: 700;
+
+}
+
+.transectionArea{
+
+display: none;
+
+}
+
+h3{
+
+margin-bottom: 20px;
+
+}
+
+.box{
+
+padding: 15px 7px;
+
+border-radius: 10px;
+
+color: #fff;
+
+margin-bottom: 10px;
+
+}
+
+.deposit{
+
+background: #f1c40f;
+
+}
+
+.withdraw{
+
+background: #e67e22;
+
+}
+
+.balance{
+
+background: #2c3e50;
+
+}

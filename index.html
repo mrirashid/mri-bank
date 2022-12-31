@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRI Bank BD</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div id="loginArea"class="loginArea text-center">
+
+                <div class="col-md-12 offset-md-2">
+
+
+
+                    <h2>Welcome to MRI Bank BD</h2>
+
+                    <br />
+
+                    <input class="form-control" placeholder="Enter Your Email" type="email" />
+
+                    <br />
+
+                    <input class="form-control" placeholder="Enter Your Password" type="password" />
+
+                    <button id="login">Login</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div id="transectionArea" class="transectionArea text-center">
+
+            <div class="row">
+
+                <h3>Here is the transection Area</h3>
+
+                <div class="col-md-4">
+
+                    <div class="deposit box">
+
+                        <h2>Deposit</h2>
+
+                        <h3>$<span id="currentAmount">00</span></h3>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="withdraw box">
+
+                        <h2>Withdraw</h2>
+
+                        <h3>$<span id="newAmount">00</span></h3>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="balance box">
+
+                        <h2>Balance</h2>
+
+                        <h3>$<span id="currentBalance">3000</span></h3>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-6">
+
+                    <h3>Deposit</h3>
+
+                    <input type="text"id="depositAmount" placeholder="Your Current Deposit" class="form-control">
+
+                    <br>
+
+                    <button id="addDeposit" class="btn" style="background: #f1c40f;color: #fff;">Deposit</button>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <h3>Withdraw</h3>
+
+                    <input type="text" id="withdrawAmount" placeholder="Your Current Withdraw" class="form-control">
+
+                    <br>
+
+                    <button class="btn" id="withdrawMoney" style="background: #e67e22; color: #fff">Withdraw</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
